@@ -149,13 +149,12 @@ img{
    display: flex;
    align-items: baseline;
    align-items: center;
+   display: flex;
+   align-items: center;
    
    
 }
-.auth-header{
-    display: flex;
-    align-items: center;
-}
+
  .auth-tel {
     color: var(--paragraf-color);
     font-family: 'Roboto';
@@ -164,6 +163,7 @@ img{
     line-height: 1.14;
     letter-spacing: 0.02em;
     display: flex;
+    align-items: center;
 }
 .auth-nav .auth-mail:hover,
 .auth-nav .auth-mail:focus {
