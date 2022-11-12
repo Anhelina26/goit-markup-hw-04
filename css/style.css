@@ -352,6 +352,7 @@ img{
 .icons-link{
     display:flex;
     width: 170px;
+     border-radius: 4px;
     height: 92px;
     align-items: center;
     justify-content:center;
@@ -361,7 +362,6 @@ img{
 .icons-link:hover,
 .icons-link:focus{
     border: 1px solid #2196F3;
-    border-radius: 4px;
     fill: var(--primary-accent-color);
 }
 
